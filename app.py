@@ -7,8 +7,8 @@ import os
 st.title("Prediksi Penurunan Fondasi - SVR")
 
 # Load model dan scaler
-model = joblib.load("svr_model_terbaik.pkl")
-scaler = joblib.load("scaler_svr.pkl")
+model = joblib.load("svr_model_terbaik_notebook15.pkl")
+scaler = joblib.load("scaler_svr_notebook15.pkl")
 
 # =========================
 # Form Input Manual
